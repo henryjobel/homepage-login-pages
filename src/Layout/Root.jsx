@@ -3,8 +3,10 @@ import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     return (
-        <div className='container mx-auto'>
+        <div >
+            <div className='container mx-auto'>
             <Navbar></Navbar>
+            </div>
             <Outlet></Outlet>
         </div>
     );

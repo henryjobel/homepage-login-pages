@@ -77,7 +77,7 @@ const Login = () => {
         displayErrorToast();
 
         setTimeout(() => {
-          navigate(location?.state ? location.state : "/dashboard");
+          navigate(location?.state ? location.state : "/");
         }, 1000);
       })
       .catch((error) => {
