@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between">
         <Link to="/" className="flex items-center">
           <h1 className="text-4xl font-bold uppercase black">
-            Zenish<span className="text-blue-600">Tech</span>
+            Simple<span className="text-blue-600">Login</span>
           </h1>
         </Link>
         <div className="flex items-center md:order-2">

@@ -76,7 +76,7 @@ const Register = () => {
           .catch();
 
         setTimeout(() => {
-          navigate(location?.state ? location.state : "/login");
+          navigate(location?.state ? location.state : "/home");
         }, 1000);
       })
       .catch((err) => {
@@ -108,7 +108,7 @@ const Register = () => {
         displayErrorToast();
 
         setTimeout(() => {
-          navigate(location?.state ? location.state : "/dashboard");
+          navigate(location?.state ? location.state : "/home");
         }, 1000);
       })
       .catch((error) => {
